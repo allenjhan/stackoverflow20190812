@@ -1,0 +1,14 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/allen/rep/stackoverflow20190812/src/main/scala/CsvParse.scala:23:18: value += is not a member of scala.collection.immutable.TreeMap[Int,List[List[InputConfig]]][0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    missing argument list for method apply in trait IterableFactory[0m
+[0m[[0m[31merror[0m] [0m[0m    Unapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0m    You can make this conversion explicit by writing `apply _` or `apply(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: CsvParse.this.configTree = CsvParse.this.configTree.+(conf(2).toInt.$minus$greater(List[List[InputConfig]]))[0m
+[0m[[0m[31merror[0m] [0m[0m      configTree += (conf(2).toInt -> List[List[InputConfig]])[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/allen/rep/stackoverflow20190812/src/main/scala/CsvParse.scala:23:43: missing argument list for method apply in trait IterableFactory[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m      configTree += (conf(2).toInt -> List[List[InputConfig]])[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
